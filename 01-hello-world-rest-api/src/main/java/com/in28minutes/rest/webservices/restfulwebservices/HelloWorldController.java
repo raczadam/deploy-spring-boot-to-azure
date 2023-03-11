@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 public class HelloWorldController {
 
+	//some comment for practicing
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
 		log.info("helloWorld invoked");
