@@ -30,4 +30,5 @@ public class HelloWorldController {
 		log.info("helloWorldPathVariable invoked");
 		return new HelloWorldBean(String.format("Hello World, %s", name));
 	}
+	
 }
